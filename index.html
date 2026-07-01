@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Baralho das Emocoes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app" aria-labelledby="page-title">
+      <section class="intro">
+        <p class="eyebrow">Baralho das emocoes</p>
+        <h1 id="page-title">Escolha uma carta</h1>
+        <p class="subtitle">
+          Cada carta guarda uma pergunta para ajudar a nomear, acolher e conversar sobre sentimentos.
+        </p>
+      </section>
+
+      <section class="table" aria-live="polite">
+        <div class="status-row">
+          <p id="round-status">10 cartas para escolher</p>
+          <button class="reset-all" id="reset-all" type="button">Embaralhar baralho</button>
+        </div>
+
+        <div class="deck" id="deck" aria-label="Cartas disponiveis"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
