@@ -115,7 +115,7 @@ h1 {
 .card {
   position: relative;
   aspect-ratio: 2 / 3;
-  min-height: 190px;
+  min-height: 200px;
   border: 0;
   padding: 0;
   background: transparent;
