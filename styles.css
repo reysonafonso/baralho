@@ -108,7 +108,7 @@ h1 {
 
 .deck {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
   gap: 14px;
 }
 
